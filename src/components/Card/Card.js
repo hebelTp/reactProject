@@ -6,7 +6,7 @@ import Icon from '../Icon/Icon';
 
 class Card extends React.Component {
 
-static PropTypes = {
+static propTypes = {
     title: PropTypes.node,
     
 }
