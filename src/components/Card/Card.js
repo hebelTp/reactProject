@@ -8,12 +8,10 @@ class Card extends React.Component {
 
 static propTypes = {
     title: PropTypes.node,
-    
 }
-
     render() {
         return (
-            <section className={styles.components}>
+            <section className={styles.component}>
                 <h3>{this.props.title}</h3>
             </section>
         )
