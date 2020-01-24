@@ -12,7 +12,7 @@ static propTypes = {
 }
 
     render() {
-        return(
+        return (
             <section className={styles.components}>
                 <h3>{this.props.title}</h3>
             </section>
